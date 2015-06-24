@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns=
+  "http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:type="TaskPaneApp">
+  <Id>674955fc-238d-49c6-95a9-d3b0ac0ea1e4</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Microsoft</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Excelculator" />
+  <Description DefaultValue="Add numbers and use formulas using the Excelculator" />
+  <Hosts>
+    <Host Name = "Workbook"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://keyur32.github.io/ExcelCalc/index.html" />
+  </DefaultSettings>
+  <Permissions>ReadDocument</Permissions>
+</OfficeApp>
