@@ -1,3 +1,5 @@
+var answer;
+
 (function () {
     "use strict";
 
@@ -30,7 +32,7 @@
         var ctx = new Excel.ExcelClientContext();
         var range = ctx.workbook.worksheets.getActiveWorksheet().getRange(rangeAddress);
 
-        range.getCell(0, 0).values = "Hello World!";
+        range.getCell(0, 0).values = answer;
 
         ctx.executeAsync().then(function () {
             app.showNotification("Write to Range"+rangeAddress+"is Successful!");
@@ -41,6 +43,7 @@
 
 
 })();
+
 
 
 $(document).ready(function(e) {
@@ -122,6 +125,7 @@ $(document).ready(function(e) {
 			$('#equals').attr('onclick','');
 		}
     });	
+	
 	$('#equals').click(function(){
 		
 		if($('#equals').attr('onclick') != 'return false'){
@@ -129,6 +133,9 @@ $(document).ready(function(e) {
 			var a = $('#answer').val();
 			var b = $('#operation').val();
 			var c = b.concat(a);
+			
+			//store answer
+			answer = c;
 			$('#answer').val(eval(c));
 			$('#operation').val(eval(c));
 			$('#operation').addClass('activeAnswer');

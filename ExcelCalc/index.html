@@ -15,11 +15,6 @@
 	<script src="script.js" type="text/javascript"></script>
 </head>
 <body>
-	<div id="content">
-		<p><strong>Select some data in the document, and then press the button below.</strong></p>
-		<p id="display-data">You haven't selected any data yet.</p>
-		<button id="get-data-from-selection">Get data from selection</button>
-	</div>
 	<div style="width:200px; margin:auto;">
     <form action="" id="calculator">
     	<input type="hidden" id="operation" value=""/>
@@ -42,6 +37,10 @@
         <input type="button" value="=" id="equals" style="width:50px; height:50px; float:left;"/>
     </form>
     <div style="clear:both;"></div>
+    <div id="">
+		<p id="display-data">You haven't selected any data yet.</p>
+		<button id="write-range">Set Data</button>
+	</div>
 </div>
 </body>
 </html>
