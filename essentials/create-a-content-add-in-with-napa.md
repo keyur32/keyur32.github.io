@@ -585,16 +585,16 @@ Now that you've created a basic content add-in for Excel, you can:
 - Open your project in Visual Studio by choosing the  **Open in Visual Studio** button
 ![Open in Visual Studio button](../images/Apps_Napa_OpenInVS.png). Napa automatically installs the necessary tools and opens your project in Visual Studio.
     
-- Create a task pane add-in for Excel by using Visual Studio. For more information, see [Create a task pane or content add-in with Visual Studio](../essentials/create-a-task-pane-or-content-add-in-with-visual-studio.md).
+- Create a task pane add-in for Excel by using Visual Studio. For more information, see [Create a task pane or content add-in with Visual Studio](..\essentials\create-a-task-pane-or-content-add-in-with-visual-studio.md).
     
-- Learn more about Office Add-ins in the [Office Add-ins platform overview](overview\platform-overview.md).
+- Learn more about Office Add-ins in the [Office Add-ins platform overview](..\overview\platform-overview.md).
     
 
 ## Additional resources
 <a name="FirstAppWordExcelVS_Resources"> </a>
 
 
-- [Understanding the JavaScript API for Office](overview\understanding-the-javascript-api-for-office.md)
+- [Understanding the JavaScript API for Office](..\overview\understanding-the-javascript-api-for-office.md)
     
-- [Office Add-ins XML manifest](overview\add-in-manifests.md)
+- [Office Add-ins XML manifest](..\overview\add-in-manifests.md)
     
